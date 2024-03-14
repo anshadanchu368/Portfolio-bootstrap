@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+  <!-- Link Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Add your custom CSS here */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+    }
+    .header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .hero-image {
+      background: url('your-hero-image.jpg') center/cover no-repeat;
+      padding: 150px 0;
+      text-align: center;
+    }
+    .logo {
+      width: 100px; /* Adjust the size of the logo */
+      height: auto;
+    }
+    .nav-link {
+      color: #fff;
+      font-weight: bold;
+    }
+    .nav-link:hover {
+      color: #ff9900; /* Change color on hover */
+    }
+    .footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .slider {
+      max-width: 100%;
+      height: auto;
+    }
+    .block {
+      padding: 40px;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin: 20px 0;
+      border-radius: 5px;
+    }
+    .portfolio-item {
+      border: 1px solid #ccc;
+      padding: 15px;
+      margin-bottom: 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+      border-radius: 5px;
+    }
+    .portfolio-item:hover {
+      transform: translateY(-5px);
+    }
+    .card-link {
+        color: inherit; /* Inherit text color from parent */
+        text-decoration: none; /* Remove underline */
+    }
+
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="header">
+    <img src="A.jpg" alt="Your Logo" class="logo">
+    <h1>Abdul Hahsim Anshad</h1>
+    <p>Full stack web developer</p>
+    
+  </div>
+  
+  <div class="hero-image">
+    <div class="container">
+      <h2>Welcome to My Portfolio</h2>
+      <p>Showcasing my projects</p>
+      <img src="B.png" alt="Hero Image" class="img-fluid">
+    </div>
+  </div>
+
+  <div class="container">
+    
+    <div class="block" id="about">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img src="lap.webp" alt="Profile Image" class="img-fluid rounded mb-4">
+          </div>
+          <div class="col-md-6">
+            <h2 class="mb-4">About Me</h2>
+            <p>I am an experienced Full Stack Developer with expertise in JavaScript, TypeScript, Next.js, React.js, Node.js, and MongoDB. I ensure the delivery of high-quality web applications with excellent problem-solving abilities. I am passionate about creating exceptional user experiences and staying up-to-date with the latest industry trends. With meticulous attention to detail and a strong technical skill set, I am dedicated to contributing to the success of every project. If you are in need of a dedicated Full Stack Developer proficient in JavaScript, TypeScript, Next.js, React.js, Node.js, and MongoDB, I am confident that I can meet your requirements effectively.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="block" id="portfolio">
+      <div class="container">
+        <h2>Portfolio</h2>
+        <div class="row">
+          <div class="col-md-4">
+          
+
+              <div class="card portfolio-card">
+                <img src="cars.png" alt="cars" srcset="">
+                <div class="card-body">
+                  <P>It provides users with a familiar interface to search for and watch videos and interact with content. The project demonstrates my skills in front-end development, including React,Redux and integrating with external APIs.</P>
+                  <a href="https://cars-pedia-9l6e.vercel.app/" class="card-link">Click Here</a>
+                </div>
+              </div>
+
+          </div>
+          <div class="col-md-4">
+           
+            <div class="card portfolio-card">
+              <img src="youtube.png" class="card-img-top" alt="Project 2">
+              <div class="card-body" >
+                <p>Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs</p>
+                <a class="card-link" href="https://647b7ce1da391b25e32a1e4c--cozy-gingersnap-b97d6d.netlify.app/">Click Here</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card portfolio-card">
+              <img src="lyrics.png" class="card-img-top" alt="Project 3">
+              <div class="card-body">
+                <p>Spotify. It provides users with a similar experience to search for and listen to their favorite music and discover new songs and artists. The project showcases my skills in front-end development, including React, HTML, CSS, and integrating with APIs.</p>
+                <a class="card-link" href="https://64841976ff845b2da89782f7--dazzling-alpaca-aa342c.netlify.app/">Click Here</a>
+              </div>
+            </div>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="block bg-light" id="skills">
+      <div class="container">
+        <h2 class="text-center mb-5">Skills</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="skill-card p-4">
+              <h4>HTML</h4>
+              <h4>CSS</h4>
+              <h4>Javascript</h4>
+              <h4>bootstrap</h4>
+              <h4>React</h4>
+              <h4>Nextjs</h4>
+
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="skill-card p-4">
+              <h4>MongoDB</h4>
+              <h4>Mongoose</h4>
+              <h4>MySQL</h4>
+              <h4>Redux</h4>
+              <h4>Postgres</h4>
+              <h4>AWS</h4>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="skill-card p-4">
+              <h4>Figma</h4>
+              <h4>AdobeXD</h4>
+              <h4>CI/CD</h4>
+              <h4>git</h4>
+              <h4>github</h4>
+              <h4>heroku</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>    
+    
+    <div class="block bg-light" id="contact">
+      <div class="container">
+        <h2 class="text-center mb-5">Contact</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="contact-info">
+              <h4>Contact Information</h4>
+              <ul class="contact-list">
+                <li><i class="fas fa-envelope"></i> anshadanchu368@gmail.com</li>
+                <li><i class="fas fa-phone"></i> 9839848798</li>
+                <li><i class="fa-brands fa-linkedin"></i><a href="www.linkedin.com/in/anshad368" class="px-2 card-link">linkedin</li></a>
+                <li><i class="fa-brands fa-github"></i><a href="https://github.com/anshadanchu368" class="px-2 card-link">github</li></a>
+
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="contact-form">
+              <h4>Send me a message</h4>
+              <form>
+                <div class="form-group">
+                  <label for="name">Your Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                  <label for="email">Your Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+  <div class="footer">
+    <p>&copy; 2024  All rights reserved.</p>
+  </div>
+
+  <!-- Link Bootstrap JS and jQuery -->
+ 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script>
+   let links = document.querySelectorAll(".card-link");
+
+links.forEach(link => {
+    link.addEventListener("click", (event) => {
+        let confirmation = confirm("Are you sure you want to leave this page?");
+        if (!confirmation) {
+            event.preventDefault(); 
+        }
+    });
+});
+
+ let cards=document.getElementsByClassName("card-body");
+
+//  below code is for styke effect on card body
+ Array.from(cards).forEach((card)=>{
+   
+   card.addEventListener("mouseenter",(event)=>{
+     console.log(event);
+     event.target.style.backgroundColor="black";
+     event.target.style.color="white";
+    });
+    
+    card.addEventListener("mouseleave",(event)=>{
+      console.log(event);
+      event.target.style.backgroundColor="";
+      event.target.style.color="black";
+    });
+ })
+
+
+
+
+
+ let validation = (e)=>{
+
+  e.preventDefault();
+
+   let name=document.getElementById("name");
+   let email=document.getElementById("email");
+   let message=document.getElementById("textarea");
+
+
+   if(name.value.trim()=="" || email.value.trim()=="" || message.value.trim()==""){
+    alert("please fill in this form")
+   }else{
+     event.target.submit();
+   }
+  }
+   
+   let form = document.querySelector('.contact-form form');
+
+  form.addEventListener('submit', validation);
+
+
+
+
+  </script>
+</body>
+</html>
